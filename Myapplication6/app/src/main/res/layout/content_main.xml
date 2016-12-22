@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_main"
+    android:background="@drawable/menu1"
+
+
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+
+        android:layout_weight="0.40" />
+
+    <!--android:layout_weight="0.05"-->
+    <!--android:hint="Enter first name here"-->
+    0    <!--android:textSize="30dp"-->
+    <!--android:textIsSelectable="true"-->
+
+    <!--android:enabled="true"-->
+    <!--android:editable="true" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buddy Search"
+        android:id="@+id/button1"
+        android:onClick="menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monty Hall"
+        android:id="@+id/button2"
+        android:onClick="menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Game"
+        android:id="@+id/button3"
+        android:onClick="menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+
+</LinearLayout>

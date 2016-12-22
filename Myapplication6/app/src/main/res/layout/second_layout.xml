@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toast_layout_root"
+    android:background="@drawable/monty5"
+
+    android:weightSum="1">
+
+    <!--android:layout_weight="0.05"-->
+    <!--android:hint="Enter first name here"-->
+0    <!--android:textSize="30dp"-->
+    <!--android:textIsSelectable="true"-->
+
+    <!--android:enabled="true"-->
+    <!--android:editable="true" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.37" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOOR 1"
+        android:id="@+id/button1"
+        android:onClick="monty_hall"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOOR 2"
+        android:id="@+id/button2"
+        android:onClick="monty_hall"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOOR 3"
+        android:id="@+id/button3"
+        android:onClick="monty_hall"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08" />
+
+
+</LinearLayout>
